@@ -1,0 +1,2 @@
+**Folder Intentionally Kept Empty**  
+SystemVerilog benchmarks, appended with the generated sampler code, will be stored in this folder. Running simulations on these SystemVerilog files will produce the training dataset.

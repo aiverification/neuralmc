@@ -1,0 +1,2 @@
+**Folder Intentionally Kept Empty**  
+Traces of the synchronous composition of the hardware design and specification will be stored here. These generated files will serve as the dataset for training the neural ranking function.
