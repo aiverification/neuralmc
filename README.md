@@ -1,16 +1,16 @@
 # Introduction
 
-This artifact contains the experiments for our NeurIPS'24 paper on Neural Model Checking [1]. The README provides details on the directory structure, installation guide, information about the setup used in the paper, and a step-by-step guide for reproducing the experiments using Docker.
+This artefact contains the experiments for our NeurIPS'24 paper on Neural Model Checking [1]. The README provides details on the directory structure, installation guide, information about the setup used in the paper, and a step-by-step guide for reproducing the experiments using Docker.
 
-Experiments involving industry tools are not included in this artifact due to their proprietary nature. All other experiments can be fully reproduced using the files below.
+Experiments involving industry tools are not included in this artefact due to their proprietary nature. All other experiments can be fully reproduced using the files below.
 
-All the LICENSES for the dependencies are included in their websites which have been cited in this document. 
+All the LICENSES for the dependencies are included in their websites which have been cited in this document.
 
 [1] Mirco Giacobbe, Daniel Kroening, Abhinandan Pal, and Michael Tautschnig (alphabetical). “Neural Model Checking”. Thirty-Eighth Annual Conference on Neural Information Processing Systems (NeurIPS’24), December 9-15, 2024, Vancouver, Canada.
 
 # Directory Structure
 
-The overall structure of this artifact is presented below.
+The overall structure of this artefact is presented below.
 
 ```
 .
@@ -18,8 +18,8 @@ The overall structure of this artifact is presented below.
 ├── LICENSE
 │
 ├── Benchmarks
-│   └── [Design-name]_[number].sv 
-│ 
+│   └── [Design-name]_[number].sv
+│
 ├── NeurIPS_Experiments
 │        ├── RunBenchmark
 │        │     └── [Spec-number]_[Design-name].py
@@ -41,14 +41,14 @@ The overall structure of this artifact is presented below.
     │    └── ebmc
     │
     └── Neuralmc
-         ├── Verilog-Sampler  
+         ├── Verilog-Sampler
          ├── Traces
          ├── Model-SMT
-         ├── Netlists  
+         ├── Netlists
          ├── nrf.py
          ├── nuR.py
-         └── bitwuzlaEncoderBV.py     
-    
+         └── bitwuzlaEncoderBV.py
+
 ```
 
 The overview omits details (files and folders) that are not relevant to our paper.
@@ -133,7 +133,7 @@ The main script nuR (Neural Reasoning) that orchestrates the execution of other 
 # Installing Dependencies
 
 
-The artifact itself contains most of the dependencies and their source have been referenced above. Besides those, the user must install `Verilator Version 5.02` and `Bitwuzla`.
+The artefact itself contains most of the dependencies and their source have been referenced above. Besides those, the user must install `Verilator Version 5.022` and `Bitwuzla`.
 
 To install Verilator, follow the instructions on their installation page [7]. In case `VERILATOR_ROOT` isn't set correctly, change `VERILATOR_ROOT` as described in their tutorial on Create-Binary Execution [8], which also demonstrates the Verilator commands that are used by us.
 
@@ -149,7 +149,7 @@ To the best of our knowledge, this implementation of neural model checking shoul
 
 We use **Ubuntu 20.04** because the authors of ABC have informed us that, "because of the Python 2.X to Python 3.X incompatibility, a slightly older version of Linux, such as Ubuntu 18.04 or maybe 20.04 is preferred." We ended up having to go back as far as Ubuntu 16.04 _to build_ ABC, but then copied over the resulting build artefacts and ran all experiments on Ubuntu 20.04.
 
-For ABC, installation on **Ubuntu 16.04**, in addition to following their build intructions [3] it is  necessary to run `apt install zlib1g-dev`. Although all tools are built for Ubuntu and our experiments were primarily conducted on **Intel CPUs**, we did a basic compatibility test on an **M2 MacBook Air** with Docker running **Ubuntu 20.04**. All tools except ABC ran successfully. ABC didn't work even on **Ubuntu 18.04**. Readers should be able to reproduce all experiments except ABC on a **MacBook** with an **ARM chip**. We emphasize all our reported experiments were performed on **Intel CPUs**.
+For ABC, installation on **Ubuntu 16.04**, in addition to following their build instructions [3] it is  necessary to run `apt install zlib1g-dev`. Although all tools are built for Ubuntu and our experiments were primarily conducted on **Intel CPUs**, we did a basic compatibility test on an **M2 MacBook Air** with Docker running **Ubuntu 20.04**. All tools except ABC ran successfully. ABC didn't work even on **Ubuntu 18.04**. Readers should be able to reproduce all experiments except ABC on a **MacBook** with an **ARM chip**. We emphasize all our reported experiments were performed on **Intel CPUs**.
 
 We don't have any specific hardware requirements, and our neural network is trained on a CPU by default.
 
@@ -249,9 +249,9 @@ root@299d409623c1:/# cd NeurIPS'24_Experiments/Benchmark_Run/
 Use `ls` to check the list of available scripts. We recommend running `1_delay.py` as the first script. These scripts will run all experiments for a DUT-specification pair using the tool selected by the user.
 
 ```shell
-root@299d409623c1:/NeurIPS'24_Experiments/Benchmark_Run# python3 1_delay.py 
+root@299d409623c1:/NeurIPS'24_Experiments/Benchmark_Run# python3 1_delay.py
 1)ABC 2)nuXmv 3)our
-Enter your choice: 
+Enter your choice:
 ```
 Choice 1 ABC
 
@@ -294,7 +294,7 @@ delay_1 (F G !rst -> G F sig) 750
 *** This version of nuXmv is linked to the CUDD library version 2.4.1
 *** Copyright (c) 1995-2004, Regents of the University of Colorado
 
-*** This version of nuXmv is linked to the MiniSat SAT solver. 
+*** This version of nuXmv is linked to the MiniSat SAT solver.
 *** See http://minisat.se/MiniSat.html
 *** Copyright (c) 2003-2006, Niklas Een, Niklas Sorensson
 *** Copyright (c) 2007-2010, Niklas Sorensson
@@ -373,21 +373,21 @@ make: Leaving directory '/neuralmcY2/NeurIPS'24_Experiments/Benchmark_Run/obj_di
 - Verilator: cpu 0.000 s on 1 threads; alloced 152 MB
         ----------Training Data Generation Completed------------
     ------------DATASET SIZE = (ALL: {0: 1452, 1: 1500})------------
-Process 2 started with colour 
- [2] loss before : 1.4816014766693115 --> 
-            {'l0': 0.0008476870134472847, 'l1': 1.480753779411316} LRate: 0.1 
- [2] loss [0] : 1.4816014766693115 --> 
-            {'l0': 0.0008476870134472847, 'l1': 1.480753779411316} LRate: 0.1 
- [2] loss [10] : 0.013296345248818398 --> 
-            {'l0': 0.013296345248818398, 'l1': 0.0} LRate: 0.1 
- [2] loss [20] : 6.706604472128674e-05 --> 
-            {'l0': 6.706604472128674e-05, 'l1': 0.0} LRate: 0.1 
- [2] loss [30] : 7.077727059368044e-05 --> 
-            {'l0': 7.077727059368044e-05, 'l1': 0.0} LRate: 0.1 
- [2] loss [40] : 0.0026949855964630842 --> 
-            {'l0': 0.0026949855964630842, 'l1': 0.0} LRate: 0.1 
- [2] loss [42] : 0.0 --> 
-            {'l0': 0.0, 'l1': 0.0}  LRate: 0.1 
+Process 2 started with colour
+ [2] loss before : 1.4816014766693115 -->
+            {'l0': 0.0008476870134472847, 'l1': 1.480753779411316} LRate: 0.1
+ [2] loss [0] : 1.4816014766693115 -->
+            {'l0': 0.0008476870134472847, 'l1': 1.480753779411316} LRate: 0.1
+ [2] loss [10] : 0.013296345248818398 -->
+            {'l0': 0.013296345248818398, 'l1': 0.0} LRate: 0.1
+ [2] loss [20] : 6.706604472128674e-05 -->
+            {'l0': 6.706604472128674e-05, 'l1': 0.0} LRate: 0.1
+ [2] loss [30] : 7.077727059368044e-05 -->
+            {'l0': 7.077727059368044e-05, 'l1': 0.0} LRate: 0.1
+ [2] loss [40] : 0.0026949855964630842 -->
+            {'l0': 0.0026949855964630842, 'l1': 0.0} LRate: 0.1
+ [2] loss [42] : 0.0 -->
+            {'l0': 0.0, 'l1': 0.0}  LRate: 0.1
  T->0: False [0.5764337182044983, 0.5764337182044983, 0.5764337182044983] ---> [0.5764337182044983, 0.5764337182044983, 0.5764337182044983]
  T->1: True [-12.549884796142578, 0.5764337182044983, -6.380736351013184] ---> [-12.565003395080566, -6.380736351013184, -6.396030902862549]
  Q0: (0.5764337182044983, 0.5764337182044983)
@@ -448,7 +448,7 @@ There will be a large number of such transitions.
 
 # Perform Ablation Study
 
-The scripts in `/NeurIPS'24_Experiments/Benchmark_Run`, contain options `network_type` and `SMTencode` which are set to `A3-Default` and `new` respectively to run the main experiment, we can switch them to perform a range of abalation study. 
+The scripts in `/NeurIPS'24_Experiments/Benchmark_Run`, contain options `network_type` and `SMTencode` which are set to `A3-Default` and `new` respectively to run the main experiment, we can switch them to perform a range of ablation study.
 
 *Ensure you toggle this setting for every script you wish to run during the Ablation Study, and switch it back to the original configuration when running the main experiments.*
 
@@ -480,7 +480,7 @@ The scripts in `/NeurIPS'24_Experiments/Benchmark_Run`, contain options `network
 
 While we have included all the ablation studies we deemed absolutely necessary, there is much more that could be explored. For example, you might try different learning rates, switch the optimizer from AdamW, use a machine with a larger number of CPU cores, or combine the above ablation studies—for instance, using architecture `A5` with `ExtraHidden` and `old` encoding. Since performing a complete ablation study would quickly lead to an exponential number of configurations, we provide detailed documentation in our scripts to allow readers to experiment with configurations they are curious about. We also highly encourage readers to reach out to the authors with any questions.
 
-# Generate Plots and Satistics
+# Generate Plots and Staistics
 
 ```shell
 cd NeurIPS\'24_Experiments/
@@ -488,5 +488,3 @@ python3 paper_plots.py
 ```
 
 Generates the different plots and statistical information in the paper. Note that the Data used is hardcoded, as performing all experiments take several days.
-
-
