@@ -55,6 +55,7 @@ for dut_i in range(len(N_lims)):
 	begin = time.time()
 
 	name = f"i2c_{dut_i+1}"
+	smt_file_name = f"1_{name}_{network_type}_{SMTencode}"
 	module_name = "i2cStrech"
 	F_prec = 14
 	idtxt = f"{name} ({specTXT}) {N_lim}"
@@ -91,7 +92,7 @@ for dut_i in range(len(N_lims)):
 			 [nuR.Bset(curr_vars, 'q', 1, ctx), nuR.BUnSet(next_vars, 'stretch', 1, ctx), nuR.Bset(non_state_vars, 'rst', 0, ctx), nuR.Bset(non_state_vars, 'scl_not_ena', 0, ctx), nuR.Bset(next_vars, 'q', 1, ctx)]]	
 	
 	bw_obj[2].bitwuzla().assert_formula(nuR.bOrOfAnd(spec, bw_obj))
-	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode)
+	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
 	end = time.time()
 	print(f"BITS ---------->>>>>>>>> {bits} {idtxt}")
 	print(f"Total Time: {end - begin}")

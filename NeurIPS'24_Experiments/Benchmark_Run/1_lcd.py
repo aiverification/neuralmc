@@ -53,6 +53,7 @@ for dut_i in range(len(CBITSs)):
 	begin = time.time()
 
 	name = f"lcd_{dut_i+1}"
+	smt_file_name = f"1_{name}_{network_type}_{SMTencode}"
 	module_name = "LCD"
 	F_prec = 14
 	idtxt = f"{name} ({specTXT}) {N_lim}"
@@ -91,7 +92,7 @@ for dut_i in range(len(CBITSs)):
 			 [nuR.Bset(curr_vars, 'q', 2, ctx), nuR.BUnSet(next_vars, 'state', 3, ctx), nuR.Bset(non_state_vars, 'lcd_enable', 1, ctx), nuR.Bset(next_vars, 'q', 2, ctx)]
 			 ]
 	bw_obj[2].bitwuzla().assert_formula(nuR.bOrOfAnd(spec, bw_obj))
-	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode)
+	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
 	end = time.time()
 	print(f"BITS ---------->>>>>>>>> {bits} {idtxt}")
 	print(f"Total Time: {end - begin}")

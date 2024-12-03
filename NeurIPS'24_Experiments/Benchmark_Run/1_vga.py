@@ -75,6 +75,7 @@ for dut_i in range(len(Sizes)):
 	range_vals = iter(['y', 0, 66*size-1, 'n', 'y', 0, 66*size-1, 'n', 'n', 'n',  'y', 0, 28*size-1, 'y', 50, 'y', 0, 28*size-1, 'n'])
 
 	name = f"vga_{dut_i+1}"
+	smt_file_name = f"1_{name}_{network_type}_{SMTencode}"
 	module_name = "VGA"
 	F_prec = 14
 	idtxt = f"{name} {module_name} {size}"
@@ -109,7 +110,7 @@ for dut_i in range(len(Sizes)):
 			 [nuR.Bset(curr_vars, 'q', 1, ctx), nuR.BUnSet(non_state_vars, 'disp_ena', 0, ctx), nuR.Bset(non_state_vars, 'rst', 0, ctx), nuR.Bset(next_vars, 'q', 1, ctx)]]	
 	
 	bw_obj[2].bitwuzla().assert_formula(nuR.bOrOfAnd(spec, bw_obj))
-	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode)
+	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
 	end = time.time()
 	print(f"BITS ---------->>>>>>>>> {bits} {idtxt}")
 	print(f"Total Time: {end - begin}")

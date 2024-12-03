@@ -55,6 +55,7 @@ for dut_i in range(len(CBITSs)):
 
 	name = f"uart_transmit_{dut_i+1}"
 	module_name = "UART_T"
+	smt_file_name = f"1_{name}_{network_type}_{SMTencode}"
 	F_prec = 14
 	idtxt = f"{name} ({specTXT}) {CBITS}"
 	print(f"\t\t\t\t {idtxt}\n\t\t\t\t ({lr}, {q_skew}, {rst_skew}, {network_type}, ({smp}, {trace_len}), {cap})")
@@ -90,7 +91,7 @@ for dut_i in range(len(CBITSs)):
 			 [nuR.Bset(curr_vars, 'q', 1, ctx), nuR.BUnSet(next_vars, 'tx_state', 0, ctx), nuR.Bset(non_state_vars, 'rst', 0, ctx), nuR.Bset(next_vars, 'q', 1, ctx)]]	
 	
 	bw_obj[2].bitwuzla().assert_formula(nuR.bOrOfAnd(spec, bw_obj))
-	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode)
+	nuR.runExperiment(name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, network_type, idtxt, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
 	end = time.time()
 	print(f"BITS ---------->>>>>>>>> {bits} {idtxt}")
 	print(f"Total Time: {end - begin}")

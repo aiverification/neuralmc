@@ -29,7 +29,7 @@ dly_nuR_A2 = expandTOs([21, 23, 27, 37, 41, 52, 119, 109, 104, 132, 161, 177, 20
 dly_nuR_A4 = expandTOs([121, 172, 324, 330, 609, 410, 427, 595, 789, 654, 1093, 1200, 1446, 3463, 6525], dly_cnt)
 dly_nuR_EL = expandTOs([29, 30, 64, 71, 81, 84, 84, 71, 115, 125, 192, 135], dly_cnt)
 dly_nuR_M = expandTOs([44, 66, 48, 53, 57, time_out_time, 64, time_out_time, 160, time_out_time, time_out_time, time_out_time, 375, 643, time_out_time, 1597], dly_cnt)
-
+bre
 
 # GRAY
 gry_cnt = 11

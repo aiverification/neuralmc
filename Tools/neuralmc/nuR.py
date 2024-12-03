@@ -653,7 +653,7 @@ def nacc_state_select(stt_acc, q_max, bw_obj, next_vars, rank_before):
 	cnds = [tm.mk_term(bw.Kind.EQUAL, [next_vars[-1], tm.mk_bv_value(bvsizeB, state)]) for state in stt_nacc]
 	return bOr(cnds, bw_obj)
 
-def cond1Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex1, idtext, stt_acc, q_max):
+def cond1Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex1, idtext, stt_acc, q_max, smt_file_name):
     tm, opt, parser, bvsizeB = bw_obj
     beginV = time.time()
     parser.bitwuzla().push()
@@ -666,6 +666,8 @@ def cond1Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits,
     endV = time.time()
     print(f"{colours[pnum % col_num]} [{pnum}] Time VERIFY 1: {endV - beginV}{Style.RESET_ALL}")
     if(res == bw.Result.UNSAT):
+        with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd1.smt2", "w") as file:
+        	file.write(parser.bitwuzla().print_formula())
         print(f"{colours[pnum % col_num]} [{pnum}] Condition 1 [PASS]{Style.RESET_ALL}")
         cex1.put(None)
     elif(res == bw.Result.SAT):
@@ -685,7 +687,7 @@ def cond1Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits,
 
 
 
-def cond2Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex2, idtext, stt_acc, q_max):
+def cond2Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex2, idtext, stt_acc, q_max, smt_file_name):
    
     tm, opt, parser, bvsizeB = bw_obj
     beginV = time.time()
@@ -697,6 +699,8 @@ def cond2Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits,
     endV = time.time()
     print(f"{colours[pnum % col_num]} [{pnum}] Time VERIFY 2: {endV - beginV}{Style.RESET_ALL}")
     if(res == bw.Result.UNSAT):
+        with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd2.smt2", "w") as file:
+        	file.write(parser.bitwuzla().print_formula())
         print(f"{colours[pnum % col_num]} [{pnum}] Condition 2 [PASS]{Style.RESET_ALL}")
         cex2.put(None)
     elif(res == bw.Result.SAT):
@@ -730,7 +734,7 @@ def bwPNRF_encode(pnrf, Svars, F_prec, bw_obj, bits, SMTencode):
 	return bwPickPiece(bwpnrfs, Svars, bw_obj, 0, q_max)
 
 
-def nrfSMT_verify(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, idtext, stt_acc, q_bits, q_max, SMTencode):
+def nrfSMT_verify(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, idtext, stt_acc, q_bits, q_max, SMTencode, smt_file_name):
     tm, opt, parser, bvsizeB = bw_obj
     rank_before = bwPNRF_encode(pnrf, curr_vars, F_prec, bw_obj, bits, SMTencode)
     rank_after = bwPNRF_encode(pnrf, next_vars, F_prec, bw_obj, bits, SMTencode)
@@ -738,8 +742,8 @@ def nrfSMT_verify(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bi
     cex1 = multiprocessing.Queue()
     cex2 = multiprocessing.Queue()
     
-    process1 = multiprocessing.Process(target=cond1Check, args=(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex1, idtext, stt_acc, q_max))
-    process2 = multiprocessing.Process(target=cond2Check, args=(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex2, idtext, stt_acc, q_max))
+    process1 = multiprocessing.Process(target=cond1Check, args=(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex1, idtext, stt_acc, q_max, smt_file_name))
+    process2 = multiprocessing.Process(target=cond2Check, args=(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, rank_before, rank_after, cex2, idtext, stt_acc, q_max, smt_file_name))
     process1.start()
     process2.start()
     process1.join()
@@ -929,7 +933,7 @@ Notes:
 """
 
 
-def train_an_nrf(bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors, all_states, result_queue, exit_event, pnum, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode):
+def train_an_nrf(bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors, all_states, result_queue, exit_event, pnum, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name):
     print(f"{colours[pnum % col_num]}Process {pnum} started with colour {Style.RESET_ALL}")
     TestEncoding = False
     success = False
@@ -955,7 +959,7 @@ def train_an_nrf(bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors
     		if(loss != 0.0):
     			print(f"Training Failed (Aborting)")
     			break
-    		cex = nrfSMT_verify(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, idtext, stt_acc, q_bits, q_max, SMTencode)
+    		cex = nrfSMT_verify(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, pnum, idtext, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
     		#print(f"VERIFICATION IS SWITCHED OFF")
     		#break
     		if (cex[0] == None and cex[1] == None):
@@ -975,7 +979,7 @@ def train_an_nrf(bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors
     finally:
     	exit_event.set()  # Signal that the process has finished
 
-def runExperiment( name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode = "new"):
+def runExperiment( name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name):
     seed = 2
     torch.manual_seed(seed)
     random.seed(seed)
@@ -987,7 +991,7 @@ def runExperiment( name, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, b
     exit_event = multiprocessing.Event()
 
     pnum = seed
-    train_an_nrf( bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors, all_states, result_queue, exit_event, pnum, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode)
+    train_an_nrf( bw_obj, curr_vars, next_vars, non_state_vars, all_trans_tensors, all_states, result_queue, exit_event, pnum, F_prec, bits, clamp_bits, nnP, idtext, lr, stt_acc, q_bits, q_max, SMTencode, smt_file_name)
     end = time.time()
     return
 
