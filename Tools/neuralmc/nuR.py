@@ -662,12 +662,12 @@ def cond1Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits,
     cnd1_pre = acc_state_select(stt_acc, q_max, bw_obj, next_vars, rank_before) #tm.mk_term(bw.Kind.EQUAL, [curr_vars[-1], tm.mk_bv_value(bvsizeB, 1)])
     cnd1_post = tm.mk_term(bw.Kind.BV_SLE, [tm.mk_term(bw.Kind.BV_SUB, [rank_before, dt]), rank_after])
     parser.bitwuzla().assert_formula(bAnd([cnd1_pre, cnd1_post], bw_obj))
+    with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd1.smt2", "w") as file:
+         file.write(parser.bitwuzla().print_formula())
     res = parser.bitwuzla().check_sat()
     endV = time.time()
     print(f"{colours[pnum % col_num]} [{pnum}] Time VERIFY 1: {endV - beginV}{Style.RESET_ALL}")
     if(res == bw.Result.UNSAT):
-        with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd1.smt2", "w") as file:
-        	file.write(parser.bitwuzla().print_formula())
         print(f"{colours[pnum % col_num]} [{pnum}] Condition 1 [PASS]{Style.RESET_ALL}")
         cex1.put(None)
     elif(res == bw.Result.SAT):
@@ -695,12 +695,12 @@ def cond2Check(pnrf, bw_obj, curr_vars, next_vars, non_state_vars, F_prec, bits,
     cnd2_pre = nacc_state_select(stt_acc, q_max, bw_obj, next_vars, rank_before) #tm.mk_term(bw.Kind.EQUAL, [curr_vars[-1], tm.mk_bv_value(bvsizeB, 0)])
     cnd2_post = tm.mk_term(bw.Kind.BV_SLT, [rank_before, rank_after])
     parser.bitwuzla().assert_formula(bAnd([cnd2_pre, cnd2_post], bw_obj))
+    with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd2.smt2", "w") as file:
+        file.write(parser.bitwuzla().print_formula())
     res = parser.bitwuzla().check_sat()
     endV = time.time()
     print(f"{colours[pnum % col_num]} [{pnum}] Time VERIFY 2: {endV - beginV}{Style.RESET_ALL}")
     if(res == bw.Result.UNSAT):
-        with open(f"../../Tools/neuralmc/SMT_benchmark/{smt_file_name}_cnd2.smt2", "w") as file:
-        	file.write(parser.bitwuzla().print_formula())
         print(f"{colours[pnum % col_num]} [{pnum}] Condition 2 [PASS]{Style.RESET_ALL}")
         cex2.put(None)
     elif(res == bw.Result.SAT):
