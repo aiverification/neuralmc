@@ -1,0 +1,120 @@
+aig 213 72 17 0 124 0 0 1
+327 146
+328 148
+266 150
+212 152
+224 154
+246 156
+310 158
+332 160
+74
+82
+136
+138
+140
+142
+144
+404
+1
+3
+420
+424
+426
+	$
+
+!/#
+4$"(*31:<$1=@**S;78186!'n6E3-+L82 
+•ƒ=<%EÁ:È‡ĞÑÊ	ÊÉ©²¤¤"¾2$â!âÆÆÆÆÄÄ"Ü,Şß4ëòú‡ô	õó	õ÷úi0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input49
+i15 convert.input48
+i16 convert.input16
+i17 convert.input14
+i18 convert.input13
+i19 convert.input12
+i20 convert.input10
+i21 convert.input8
+i22 convert.input6
+i23 convert.input4
+i24 convert.input2
+i25 convert.input17
+i26 convert.input47
+i27 convert.input15
+i28 convert.input45
+i29 convert.input9
+i30 convert.input39
+i31 convert.input7
+i32 convert.input37
+i33 convert.input5
+i34 convert.input35
+i35 convert.input3
+i36 AIGER_NEXT_Verilog.i2cStrech.scl_not_ena
+i37 convert.input33
+i38 convert.input0
+i39 convert.input1
+i40 AIGER_NEXT_Verilog.i2cStrech.rst
+i41 convert.input31
+i42 Verilog.i2cStrech.clk
+i43 convert.input29
+i44 convert.input11
+i45 convert.input41
+i46 convert.input18
+i47 convert.input19
+i48 convert.input20
+i49 convert.input21
+i50 convert.input22
+i51 convert.input23
+i52 convert.input24
+i53 convert.input25
+i54 convert.input26
+i55 convert.input27
+i56 convert.input28
+i57 convert.input30
+i58 convert.input32
+i59 convert.input34
+i60 convert.input36
+i61 convert.input38
+i62 convert.input40
+i63 convert.input42
+i64 convert.input43
+i65 convert.input44
+i66 convert.input46
+i67 AIGER_NEXT_LTL_1_SPECF_7
+i68 AIGER_NEXT_LTL_1_SPECF_5
+i69 AIGER_NEXT_LTL_1_SPECF_3
+i70 AIGER_NEXT_LTL_1_SPECF_1
+i71 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.i2cStrech.stretch
+l1 Verilog.i2cStrech.scl_clk
+l2 Verilog.i2cStrech.cnt[0]
+l3 Verilog.i2cStrech.cnt[1]
+l4 Verilog.i2cStrech.cnt[2]
+l5 Verilog.i2cStrech.cnt[3]
+l6 Verilog.i2cStrech.switch_range
+l7 Verilog.i2cStrech.data_clk
+l8 Verilog.i2cStrech.scl_not_ena
+l9 Verilog.i2cStrech.rst
+l10 LTL_1_SPECF_7
+l11 LTL_1_SPECF_5
+l12 LTL_1_SPECF_3
+l13 LTL_1_SPECF_1
+l14 IGNORE_LTL_1
+l15 AIGER_VALID
+l16 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/i2c_1.smv

@@ -62,3 +62,5 @@ module VGA #(localparam  size = 1, h_bits =7, v_bits = 5)(input clk, input rst, 
 	end
 endmodule
 
+
+

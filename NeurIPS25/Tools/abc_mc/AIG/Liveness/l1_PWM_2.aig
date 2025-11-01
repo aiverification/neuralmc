@@ -1,0 +1,94 @@
+aig 147 40 22 0 85 0 0 1
+156 82
+164 84
+171 86
+89 88
+177 90
+185 92
+193 94
+201 96
+209 98
+217 100
+225 102
+233 104
+241 106
+249 108
+36
+38
+40
+76
+78
+80
+286
+1
+2
+292
+294
+		'#	-7555&<<RSXWUV][\cabighomnust{yz€‡…­M¬«Š'hO¶
+œŸ«#«©¬i0 convert.input31
+i1 convert.input29
+i2 convert.input27
+i3 convert.input26
+i4 convert.input25
+i5 convert.input24
+i6 convert.input23
+i7 convert.input22
+i8 convert.input21
+i9 convert.input20
+i10 convert.input19
+i11 convert.input18
+i12 convert.input1
+i13 convert.input28
+i14 Verilog.PWM_TOP.clk
+i15 convert.input30
+i16 Verilog.PWM_TOP.sw[0]
+i17 AIGER_NEXT_Verilog.PWM_TOP.sw[1]
+i18 AIGER_NEXT_Verilog.PWM_TOP.sw[2]
+i19 AIGER_NEXT_Verilog.PWM_TOP.sw[3]
+i20 convert.input0
+i21 convert.input13
+i22 convert.input3
+i23 convert.input5
+i24 convert.input7
+i25 convert.input9
+i26 convert.input15
+i27 convert.input2
+i28 convert.input4
+i29 convert.input6
+i30 convert.input8
+i31 convert.input10
+i32 convert.input11
+i33 convert.input12
+i34 convert.input14
+i35 convert.input16
+i36 convert.input17
+i37 AIGER_NEXT_LTL_1_SPECF_3
+i38 AIGER_NEXT_LTL_1_SPECF_1
+i39 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.PWM_TOP.pulse_red
+l1 Verilog.PWM_TOP.lb_pulse
+l2 Verilog.PWM_TOP.ub_pulse
+l3 Verilog.PWM_TOP.cnt_R[0]
+l4 Verilog.PWM_TOP.cnt_R[1]
+l5 Verilog.PWM_TOP.cnt_R[2]
+l6 Verilog.PWM_TOP.cnt_R[3]
+l7 Verilog.PWM_TOP.cnt_R[4]
+l8 Verilog.PWM_TOP.cnt_R[5]
+l9 Verilog.PWM_TOP.cnt_R[6]
+l10 Verilog.PWM_TOP.cnt_R[7]
+l11 Verilog.PWM_TOP.cnt_R[8]
+l12 Verilog.PWM_TOP.cnt_R[9]
+l13 Verilog.PWM_TOP.cnt_R[10]
+l14 Verilog.PWM_TOP.sw[1]
+l15 Verilog.PWM_TOP.sw[2]
+l16 Verilog.PWM_TOP.sw[3]
+l17 LTL_1_SPECF_3
+l18 LTL_1_SPECF_1
+l19 IGNORE_LTL_1
+l20 AIGER_VALID
+l21 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/PWM_2.smv

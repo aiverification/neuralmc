@@ -1,0 +1,188 @@
+aig 780 86 29 0 665 0 0 1
+665 174
+1139 176
+1153 178
+1169 180
+1185 182
+1201 184
+1217 186
+1233 188
+1249 190
+1265 192
+1293 194
+1321 196
+1351 198
+1369 200
+1399 202
+1405 204
+1408 206
+1412 208
+1487 210
+1490 212
+1494 214
+1503 216
+581 218
+58
+168
+170
+172
+1548
+1
+2
+1558
+1560
+332222JHIG!3IG,/5jk,:=75DBE9((	NH•“^lo1('”­«x†‰/¬ÅÃ’ £-ÄİÛ¬º½+ÜõóÆÔ×)ò‰mU?&€—¥~fN7‹(qYC*œ²˜€hP9ªqY@³Ê®—~gNÁ-[nUÈ
+((::JJ^^ppÇèzÓná`ñVıJ‹C”7¢1ª:M
+Xjz" (÷û1œ8`t}›­½“›ÎOÂ]´mªy‡—‹…¦¡
+¬¾Îâ"ô(ËÓzR‚iöwè‡Ş“Ò¡Ëª¿¸¹ÀÂÕ
+àò‚–"¨(ÿ¡`†¶‹ª™œ©’µ†ÃÿÌóÚíâö‰
+”¦¶Ê"Ü(³‡.ºê…Ş“Ğ£Æ¯º½³Æ§Ô¡Üª½
+ÈÚêş"(çÉ î37¤‘˜ŸŠ¯€»ôÉíÒáàÛèä÷
+‚”¤¸"Ê(¡‘¨5¥ÚŞ5ÒCÄSº_®m§v›„•Œ±
+¼ÎŞò"„(ÛÉ”â4”ˆ)ú9ğEäSİ\ÑjËrÔç
+ò„”¨"º(‘å®˜5Œ?€MùV“
+­»Íİ²íÈº!ìœàªÒºÈÆ¼Ôµİ©ë£ó¬¿
+ÊÜì€"’(éµ6ğ5îë´¸CüÊµ·›™SŒ¦éšñïcœü£ğ£¡s¬®¢çåƒ¼òMæçå“ÌòİæÁ¿£ÜÌ“À¯­³ìºµ–~úŒ¦İÛìö†“
+¨·Œ²|–¨¤ùÙˆ‘¡¯
+ÄÓ¨«Îz²â‚Æ¢š­½ËàïÇÉìxĞ€€äÙÛşvâ¼¬ÄÔİíûóõúœ	t€¢	r†¦	pŠƒÎ›Ÿç‹Á³ÿßö8˜Í¿‹ë¡šƒ¦ÜÍ™ù®¼ÊÜìÁ	*Œ
+…Ë½ô	lØø	nÜ¢¹“ß9ß§¹
+º
+¹
+
+Š
+5™µÇ
+È
+”
+”
+
+”
+”
+ 
+¢
+£
+ ´
+³
+±
+³
+±
+´
+i0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input49
+i15 convert.input48
+i16 convert.input47
+i17 convert.input46
+i18 convert.input45
+i19 convert.input44
+i20 convert.input43
+i21 convert.input42
+i22 convert.input41
+i23 convert.input40
+i24 convert.input39
+i25 convert.input38
+i26 convert.input37
+i27 convert.input6
+i28 AIGER_NEXT_Verilog.LCD.lcd_enable
+i29 convert.input4
+i30 convert.input3
+i31 Verilog.LCD.in_data[0]
+i32 Verilog.LCD.in_data[1]
+i33 Verilog.LCD.in_data[2]
+i34 Verilog.LCD.in_data[3]
+i35 Verilog.LCD.in_data[4]
+i36 Verilog.LCD.in_data[5]
+i37 Verilog.LCD.in_data[6]
+i38 convert.input1
+i39 Verilog.LCD.clk
+i40 convert.input22
+i41 convert.input20
+i42 convert.input18
+i43 convert.input25
+i44 convert.input12
+i45 convert.input10
+i46 Verilog.LCD.lcd_bus[0]
+i47 Verilog.LCD.lcd_bus[1]
+i48 Verilog.LCD.lcd_bus[2]
+i49 Verilog.LCD.lcd_bus[3]
+i50 Verilog.LCD.lcd_bus[4]
+i51 Verilog.LCD.lcd_bus[5]
+i52 Verilog.LCD.lcd_bus[6]
+i53 Verilog.LCD.lcd_bus[7]
+i54 Verilog.LCD.lcd_bus[8]
+i55 Verilog.LCD.lcd_bus[9]
+i56 convert.input8
+i57 convert.input5
+i58 convert.input2
+i59 convert.input16
+i60 convert.input0
+i61 convert.input14
+i62 convert.input27
+i63 convert.input7
+i64 convert.input9
+i65 convert.input11
+i66 convert.input13
+i67 convert.input15
+i68 convert.input17
+i69 convert.input19
+i70 convert.input21
+i71 convert.input23
+i72 convert.input24
+i73 convert.input26
+i74 convert.input28
+i75 convert.input29
+i76 convert.input30
+i77 convert.input31
+i78 convert.input32
+i79 convert.input33
+i80 convert.input34
+i81 convert.input35
+i82 convert.input36
+i83 AIGER_NEXT_LTL_1_SPECF_3
+i84 AIGER_NEXT_LTL_1_SPECF_1
+i85 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.LCD.busy
+l1 Verilog.LCD.cnt[0]
+l2 Verilog.LCD.cnt[1]
+l3 Verilog.LCD.cnt[2]
+l4 Verilog.LCD.cnt[3]
+l5 Verilog.LCD.cnt[4]
+l6 Verilog.LCD.cnt[5]
+l7 Verilog.LCD.cnt[6]
+l8 Verilog.LCD.cnt[7]
+l9 Verilog.LCD.cnt[8]
+l10 Verilog.LCD.lcd_data[0]
+l11 Verilog.LCD.lcd_data[1]
+l12 Verilog.LCD.lcd_data[2]
+l13 Verilog.LCD.lcd_data[3]
+l14 Verilog.LCD.lcd_data[4]
+l15 Verilog.LCD.lcd_data[5]
+l16 Verilog.LCD.lcd_data[6]
+l17 Verilog.LCD.lcd_data[7]
+l18 Verilog.LCD.e
+l19 Verilog.LCD.rs
+l20 Verilog.LCD.rw
+l21 Verilog.LCD.state[0]
+l22 Verilog.LCD.state[1]
+l23 Verilog.LCD.lcd_enable
+l24 LTL_1_SPECF_3
+l25 LTL_1_SPECF_1
+l26 IGNORE_LTL_1
+l27 AIGER_VALID
+l28 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/lcd_1.smv

@@ -1,0 +1,110 @@
+aig 187 40 30 0 117 0 0 1
+172 82
+180 84
+187 86
+89 88
+193 90
+201 92
+209 94
+217 96
+225 98
+233 100
+241 102
+249 104
+257 106
+265 108
+273 110
+281 112
+289 114
+297 116
+305 118
+313 120
+321 122
+329 124
+36
+38
+40
+76
+78
+80
+366
+1
+2
+372
+374
+		'#	-7555&<<bchgefmklsqrywx}~…ƒ„‹‰Š‘—•–›œ£¡¢©§¨¯­®µ³´»¹ºÁ¿ÀÇÅıMüûÁÊ7¨_†ĞĞ
+ĞĞÜŞßë3ëéìi0 convert.input30
+i1 convert.input28
+i2 convert.input27
+i3 convert.input26
+i4 convert.input25
+i5 convert.input24
+i6 convert.input23
+i7 convert.input22
+i8 convert.input21
+i9 convert.input20
+i10 convert.input19
+i11 convert.input18
+i12 convert.input0
+i13 convert.input29
+i14 Verilog.PWM_TOP.clk
+i15 convert.input31
+i16 Verilog.PWM_TOP.sw[0]
+i17 AIGER_NEXT_Verilog.PWM_TOP.sw[1]
+i18 AIGER_NEXT_Verilog.PWM_TOP.sw[2]
+i19 AIGER_NEXT_Verilog.PWM_TOP.sw[3]
+i20 convert.input1
+i21 convert.input4
+i22 convert.input6
+i23 convert.input8
+i24 convert.input10
+i25 convert.input13
+i26 convert.input15
+i27 convert.input2
+i28 convert.input3
+i29 convert.input5
+i30 convert.input7
+i31 convert.input9
+i32 convert.input11
+i33 convert.input12
+i34 convert.input14
+i35 convert.input16
+i36 convert.input17
+i37 AIGER_NEXT_LTL_1_SPECF_3
+i38 AIGER_NEXT_LTL_1_SPECF_1
+i39 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.PWM_TOP.pulse_red
+l1 Verilog.PWM_TOP.lb_pulse
+l2 Verilog.PWM_TOP.ub_pulse
+l3 Verilog.PWM_TOP.cnt_R[0]
+l4 Verilog.PWM_TOP.cnt_R[1]
+l5 Verilog.PWM_TOP.cnt_R[2]
+l6 Verilog.PWM_TOP.cnt_R[3]
+l7 Verilog.PWM_TOP.cnt_R[4]
+l8 Verilog.PWM_TOP.cnt_R[5]
+l9 Verilog.PWM_TOP.cnt_R[6]
+l10 Verilog.PWM_TOP.cnt_R[7]
+l11 Verilog.PWM_TOP.cnt_R[8]
+l12 Verilog.PWM_TOP.cnt_R[9]
+l13 Verilog.PWM_TOP.cnt_R[10]
+l14 Verilog.PWM_TOP.cnt_R[11]
+l15 Verilog.PWM_TOP.cnt_R[12]
+l16 Verilog.PWM_TOP.cnt_R[13]
+l17 Verilog.PWM_TOP.cnt_R[14]
+l18 Verilog.PWM_TOP.cnt_R[15]
+l19 Verilog.PWM_TOP.cnt_R[16]
+l20 Verilog.PWM_TOP.cnt_R[17]
+l21 Verilog.PWM_TOP.cnt_R[18]
+l22 Verilog.PWM_TOP.sw[1]
+l23 Verilog.PWM_TOP.sw[2]
+l24 Verilog.PWM_TOP.sw[3]
+l25 LTL_1_SPECF_3
+l26 LTL_1_SPECF_1
+l27 IGNORE_LTL_1
+l28 AIGER_VALID
+l29 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/PWM_10.smv

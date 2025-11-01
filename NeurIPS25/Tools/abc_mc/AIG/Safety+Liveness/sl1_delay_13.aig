@@ -1,0 +1,147 @@
+aig 293 72 25 0 196 0 0 1
+254 146
+262 148
+272 150
+282 152
+292 154
+302 156
+312 158
+322 160
+332 162
+342 164
+352 166
+362 168
+372 170
+382 172
+392 174
+402 176
+72
+134
+136
+138
+140
+142
+144
+546
+1
+3
+554
+584
+586
+/--/././..---/..EFEFFEEEEFFGilm	tsq
+r{y
+zÉÅ'
+Çãâ1
+äìë;
+íõôE
+ö£°O
+¢´©Y
+™≥±c
+≤ªπm
+∫√¡w
+¬À…Å
+ ”—ã
+“€ŸïáDâàá◊‡-⁄⁄‹‹•õìçÑ}tmd\SKC=4åõîãÑ|skc[TLµ
+≠§ùîåÉ{smdÛÙ«≈Z
+»»»»r⁄|‹›ÑÈÎÎÈèèéèééçççèéç…èáäi0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input19
+i15 convert.input17
+i16 convert.input16
+i17 convert.input15
+i18 convert.input13
+i19 convert.input11
+i20 convert.input9
+i21 convert.input7
+i22 convert.input5
+i23 convert.input18
+i24 convert.input48
+i25 convert.input12
+i26 convert.input42
+i27 convert.input10
+i28 convert.input40
+i29 convert.input8
+i30 convert.input38
+i31 convert.input6
+i32 convert.input36
+i33 convert.input3
+i34 convert.input4
+i35 AIGER_NEXT_Verilog.DELAY.rst
+i36 convert.input34
+i37 convert.input1
+i38 convert.input2
+i39 Verilog.DELAY.clk
+i40 convert.input32
+i41 convert.input14
+i42 convert.input44
+i43 convert.input0
+i44 convert.input20
+i45 convert.input21
+i46 convert.input22
+i47 convert.input23
+i48 convert.input24
+i49 convert.input25
+i50 convert.input26
+i51 convert.input27
+i52 convert.input28
+i53 convert.input29
+i54 convert.input30
+i55 convert.input31
+i56 convert.input33
+i57 convert.input35
+i58 convert.input37
+i59 convert.input39
+i60 convert.input41
+i61 convert.input43
+i62 convert.input45
+i63 convert.input46
+i64 convert.input47
+i65 convert.input49
+i66 AIGER_NEXT_LTL_1_SPECF_8
+i67 AIGER_NEXT_LTL_1_SPECF_6
+i68 AIGER_NEXT_LTL_1_SPECF_4
+i69 AIGER_NEXT_LTL_1_SPECF_3
+i70 AIGER_NEXT_LTL_1_SPECF_1
+i71 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.DELAY.cnt[0]
+l1 Verilog.DELAY.cnt[1]
+l2 Verilog.DELAY.cnt[2]
+l3 Verilog.DELAY.cnt[3]
+l4 Verilog.DELAY.cnt[4]
+l5 Verilog.DELAY.cnt[5]
+l6 Verilog.DELAY.cnt[6]
+l7 Verilog.DELAY.cnt[7]
+l8 Verilog.DELAY.cnt[8]
+l9 Verilog.DELAY.cnt[9]
+l10 Verilog.DELAY.cnt[10]
+l11 Verilog.DELAY.cnt[11]
+l12 Verilog.DELAY.cnt[12]
+l13 Verilog.DELAY.cnt[13]
+l14 Verilog.DELAY.cnt[14]
+l15 Verilog.DELAY.cnt[15]
+l16 Verilog.DELAY.rst
+l17 LTL_1_SPECF_8
+l18 LTL_1_SPECF_6
+l19 LTL_1_SPECF_4
+l20 LTL_1_SPECF_3
+l21 LTL_1_SPECF_1
+l22 IGNORE_LTL_1
+l23 AIGER_VALID
+l24 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/delay_13.smv

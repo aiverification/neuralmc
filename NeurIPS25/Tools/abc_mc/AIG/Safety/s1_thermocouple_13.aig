@@ -1,0 +1,242 @@
+aig 767 102 55 0 610 0 0 1
+384 206
+414 208
+446 210
+478 212
+510 214
+542 216
+574 218
+606 220
+638 222
+670 224
+702 226
+734 228
+766 230
+798 232
+830 234
+848 236
+860 238
+874 240
+894 242
+914 244
+934 246
+954 248
+974 250
+994 252
+1014 254
+1034 256
+1054 258
+1074 260
+1094 262
+1114 264
+1134 266
+1154 268
+1174 270
+1194 272
+1214 274
+1234 276
+1254 278
+1274 280
+1294 282
+1314 284
+1334 286
+1354 288
+1374 290
+1394 292
+1414 294
+1434 296
+1454 298
+1474 300
+86
+90
+200
+202
+204
+1524
+1
+2
+1532
+1534
+MeedceddcceÇgàlÑÇÇÉÇÇÇÉÇÅüç  >(P≤≥6L6Ü47ã>
+\n–œÕVlVÑ9TWâ^
+|é ŒÌÎvåvÇYtwá~
+úÆ Ïãâñ¨ñÄyîóÖû
+ºŒ ä©ß∂Ã∂~ô¥∑Éæ
+‹Ó ®«≈÷Ï÷|π‘◊Åﬁ
+¸é ∆Â„ˆåˆzŸÙ˜˛
+úÆ ‰ÉÅñ¨ñx˘îó}û
+ºŒ Ç°ü∂Ã∂vô¥∑{æ
+‹Ó †øΩ÷Ï÷tπ‘◊yﬁ
+¸é æ›€ˆåˆrŸÙ˜w˛
+úÆ ‹˚˘ñ¨ñp˘îóuû
+ºŒ ˙ôó∂Ã∂nô¥∑sæ
+‹Ó ò∑µ÷Ï÷lπ‘◊qﬁ
+¸éíD”ÿé†¸%ÊÄÁú´¢Lä&ãg®∫∞JòdñÿóiûºŒƒH¨b™÷´g≤–‚ÿF¿`æ‘øe∆‰ˆÏD‘^““”c⁄¯äÄBË\Ê–ÁaÓåûî@¸Z˙Œ˚_Ç†≤®>êXéÃè]ñ¥∆º<§V¢ £[™»⁄–:∏T∂»∑Yæ‹Ó‰8ÃR ∆ÀW“Ç¯6‡PﬁƒﬂUÊÑñå4ÙNÚ¬ÛS˙ò™†2àLÜ¿áQé¨æ¥0úJöæõO¢¿“».∞HÆÙØM∂‘Ê‹,ƒF¬Ú√K Ë˙*ÿD÷◊Iﬁ¸éÑ(ÏBÍÓÎGÚê¢ò&Ä@˛ÏˇEÜ§∂¨$î>íÍìCö∏ ¿"®<¶ËßAÆÃﬁ‘ º:∫Êª?¬‡ÚË–8Œ‰œ=÷ÙÜ¸‰6‚‚„;Íàöê¯4ˆ‡˜9˛úÆ§å2äﬁã7í∞¬∏†0û¸ü5¶ƒ÷Ã¥.≤˙≥3∫ÿÍ‡»,∆¯«1ŒÏ˛Ù‹*⁄‹€/‚Ä	í	√Í
+Ô
+ˇ	Ä
+ˇ	ì	ú	i˘˙
+ˇ
+è
+ê
+®	®	£	°	¥	∂	∑	"ñ±√	≈	√	∆	i0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input49
+i15 convert.input48
+i16 convert.input47
+i17 convert.input46
+i18 convert.input45
+i19 convert.input44
+i20 convert.input43
+i21 convert.input42
+i22 convert.input10
+i23 convert.input9
+i24 convert.input7
+i25 convert.input5
+i26 convert.input3
+i27 convert.input1
+i28 convert.input11
+i29 convert.input41
+i30 convert.input8
+i31 convert.input38
+i32 convert.input6
+i33 convert.input36
+i34 convert.input4
+i35 convert.input34
+i36 convert.input24
+i37 Verilog.Thermocouple.clk
+i38 convert.input14
+i39 convert.input27
+i40 convert.input0
+i41 convert.input30
+i42 AIGER_NEXT_Verilog.Thermocouple.rst
+i43 convert.input16
+i44 AIGER_NEXT_Verilog.Thermocouple.spi_not_busy
+i45 convert.input18
+i46 Verilog.Thermocouple.spi_rx_data[0]
+i47 Verilog.Thermocouple.spi_rx_data[1]
+i48 Verilog.Thermocouple.spi_rx_data[2]
+i49 Verilog.Thermocouple.spi_rx_data[3]
+i50 Verilog.Thermocouple.spi_rx_data[4]
+i51 Verilog.Thermocouple.spi_rx_data[5]
+i52 Verilog.Thermocouple.spi_rx_data[6]
+i53 Verilog.Thermocouple.spi_rx_data[7]
+i54 Verilog.Thermocouple.spi_rx_data[8]
+i55 Verilog.Thermocouple.spi_rx_data[9]
+i56 Verilog.Thermocouple.spi_rx_data[10]
+i57 Verilog.Thermocouple.spi_rx_data[11]
+i58 Verilog.Thermocouple.spi_rx_data[12]
+i59 Verilog.Thermocouple.spi_rx_data[13]
+i60 Verilog.Thermocouple.spi_rx_data[14]
+i61 Verilog.Thermocouple.spi_rx_data[15]
+i62 Verilog.Thermocouple.spi_rx_data[16]
+i63 Verilog.Thermocouple.spi_rx_data[17]
+i64 Verilog.Thermocouple.spi_rx_data[18]
+i65 Verilog.Thermocouple.spi_rx_data[19]
+i66 Verilog.Thermocouple.spi_rx_data[20]
+i67 Verilog.Thermocouple.spi_rx_data[21]
+i68 Verilog.Thermocouple.spi_rx_data[22]
+i69 Verilog.Thermocouple.spi_rx_data[23]
+i70 Verilog.Thermocouple.spi_rx_data[24]
+i71 Verilog.Thermocouple.spi_rx_data[25]
+i72 Verilog.Thermocouple.spi_rx_data[26]
+i73 Verilog.Thermocouple.spi_rx_data[27]
+i74 Verilog.Thermocouple.spi_rx_data[28]
+i75 Verilog.Thermocouple.spi_rx_data[29]
+i76 Verilog.Thermocouple.spi_rx_data[30]
+i77 Verilog.Thermocouple.spi_rx_data[31]
+i78 convert.input20
+i79 convert.input2
+i80 convert.input32
+i81 convert.input12
+i82 convert.input13
+i83 convert.input15
+i84 convert.input17
+i85 convert.input19
+i86 convert.input21
+i87 convert.input22
+i88 convert.input23
+i89 convert.input25
+i90 convert.input26
+i91 convert.input28
+i92 convert.input29
+i93 convert.input31
+i94 convert.input33
+i95 convert.input35
+i96 convert.input37
+i97 convert.input39
+i98 convert.input40
+i99 AIGER_NEXT_LTL_1_SPECF_2
+i100 AIGER_NEXT_LTL_1_SPECF_1
+i101 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.Thermocouple.cnt[0]
+l1 Verilog.Thermocouple.cnt[1]
+l2 Verilog.Thermocouple.cnt[2]
+l3 Verilog.Thermocouple.cnt[3]
+l4 Verilog.Thermocouple.cnt[4]
+l5 Verilog.Thermocouple.cnt[5]
+l6 Verilog.Thermocouple.cnt[6]
+l7 Verilog.Thermocouple.cnt[7]
+l8 Verilog.Thermocouple.cnt[8]
+l9 Verilog.Thermocouple.cnt[9]
+l10 Verilog.Thermocouple.cnt[10]
+l11 Verilog.Thermocouple.cnt[11]
+l12 Verilog.Thermocouple.cnt[12]
+l13 Verilog.Thermocouple.cnt[13]
+l14 Verilog.Thermocouple.cnt[14]
+l15 Verilog.Thermocouple.state[0]
+l16 Verilog.Thermocouple.state[1]
+l17 Verilog.Thermocouple.spi_ena
+l18 Verilog.Thermocouple.tc_temp_data[0]
+l19 Verilog.Thermocouple.tc_temp_data[1]
+l20 Verilog.Thermocouple.tc_temp_data[2]
+l21 Verilog.Thermocouple.tc_temp_data[3]
+l22 Verilog.Thermocouple.tc_temp_data[4]
+l23 Verilog.Thermocouple.tc_temp_data[5]
+l24 Verilog.Thermocouple.tc_temp_data[6]
+l25 Verilog.Thermocouple.tc_temp_data[7]
+l26 Verilog.Thermocouple.tc_temp_data[8]
+l27 Verilog.Thermocouple.tc_temp_data[9]
+l28 Verilog.Thermocouple.tc_temp_data[10]
+l29 Verilog.Thermocouple.tc_temp_data[11]
+l30 Verilog.Thermocouple.tc_temp_data[12]
+l31 Verilog.Thermocouple.tc_temp_data[13]
+l32 Verilog.Thermocouple.junction_temp_data[0]
+l33 Verilog.Thermocouple.junction_temp_data[1]
+l34 Verilog.Thermocouple.junction_temp_data[2]
+l35 Verilog.Thermocouple.junction_temp_data[3]
+l36 Verilog.Thermocouple.junction_temp_data[4]
+l37 Verilog.Thermocouple.junction_temp_data[5]
+l38 Verilog.Thermocouple.junction_temp_data[6]
+l39 Verilog.Thermocouple.junction_temp_data[7]
+l40 Verilog.Thermocouple.junction_temp_data[8]
+l41 Verilog.Thermocouple.junction_temp_data[9]
+l42 Verilog.Thermocouple.junction_temp_data[10]
+l43 Verilog.Thermocouple.junction_temp_data[11]
+l44 Verilog.Thermocouple.fault_bits[0]
+l45 Verilog.Thermocouple.fault_bits[1]
+l46 Verilog.Thermocouple.fault_bits[2]
+l47 Verilog.Thermocouple.fault_bits[3]
+l48 Verilog.Thermocouple.rst
+l49 Verilog.Thermocouple.spi_not_busy
+l50 LTL_1_SPECF_2
+l51 LTL_1_SPECF_1
+l52 IGNORE_LTL_1
+l53 AIGER_VALID
+l54 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/thermocouple_13.smv

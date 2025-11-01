@@ -1,0 +1,137 @@
+aig 289 40 37 0 212 0 0 1
+156 82
+164 84
+174 86
+184 88
+194 90
+204 92
+214 94
+224 96
+234 98
+244 100
+254 102
+264 104
+274 106
+284 108
+289 110
+301 112
+313 114
+325 116
+337 118
+349 120
+361 122
+373 124
+385 126
+397 128
+409 130
+421 132
+433 134
+439 136
+42
+70
+72
+74
+76
+78
+80
+532
+1
+3
+540
+576
+578
+8JKRQO"
+PYW,
+Xa_6
+`ig@
+hqoJ
+pywT
+xÅ^
+Äâáh
+àëèr
+êôó|
+ò°üÜ
+†©ßêîzòÕ–û§◊⁄™∞·‰∂ºÎÓ¬»ı¯Œ‘ˇÇ⁄‡âåÊÏìñÚ¯
+ù†˛Ñß™äê±¥ñúªæ¢®©Î"ÌÏÎ£¨E¶¶®®´°ôëâÅ˘ÒÈ·Ÿ—…Ω£¶·ﬂ(
+‚‚‚‚@ÙJˆ˜RÉÖÖÉ…««««««««««««´´Øß™i0 convert.input31
+i1 convert.input30
+i2 convert.input29
+i3 convert.input28
+i4 convert.input27
+i5 convert.input26
+i6 convert.input25
+i7 convert.input24
+i8 convert.input23
+i9 convert.input22
+i10 convert.input21
+i11 convert.input20
+i12 convert.input2
+i13 convert.input0
+i14 convert.input15
+i15 convert.input1
+i16 Verilog.GRAY.clk
+i17 convert.input4
+i18 convert.input17
+i19 convert.input3
+i20 AIGER_NEXT_Verilog.GRAY.rst
+i21 convert.input6
+i22 convert.input8
+i23 convert.input13
+i24 convert.input5
+i25 convert.input7
+i26 convert.input9
+i27 convert.input10
+i28 convert.input11
+i29 convert.input12
+i30 convert.input14
+i31 convert.input16
+i32 convert.input18
+i33 convert.input19
+i34 AIGER_NEXT_LTL_1_SPECF_8
+i35 AIGER_NEXT_LTL_1_SPECF_6
+i36 AIGER_NEXT_LTL_1_SPECF_4
+i37 AIGER_NEXT_LTL_1_SPECF_3
+i38 AIGER_NEXT_LTL_1_SPECF_1
+i39 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.GRAY.cnt[0]
+l1 Verilog.GRAY.cnt[1]
+l2 Verilog.GRAY.cnt[2]
+l3 Verilog.GRAY.cnt[3]
+l4 Verilog.GRAY.cnt[4]
+l5 Verilog.GRAY.cnt[5]
+l6 Verilog.GRAY.cnt[6]
+l7 Verilog.GRAY.cnt[7]
+l8 Verilog.GRAY.cnt[8]
+l9 Verilog.GRAY.cnt[9]
+l10 Verilog.GRAY.cnt[10]
+l11 Verilog.GRAY.cnt[11]
+l12 Verilog.GRAY.cnt[12]
+l13 Verilog.GRAY.cnt[13]
+l14 Verilog.GRAY.gray_c[0]
+l15 Verilog.GRAY.gray_c[1]
+l16 Verilog.GRAY.gray_c[2]
+l17 Verilog.GRAY.gray_c[3]
+l18 Verilog.GRAY.gray_c[4]
+l19 Verilog.GRAY.gray_c[5]
+l20 Verilog.GRAY.gray_c[6]
+l21 Verilog.GRAY.gray_c[7]
+l22 Verilog.GRAY.gray_c[8]
+l23 Verilog.GRAY.gray_c[9]
+l24 Verilog.GRAY.gray_c[10]
+l25 Verilog.GRAY.gray_c[11]
+l26 Verilog.GRAY.gray_c[12]
+l27 Verilog.GRAY.gray_c[13]
+l28 Verilog.GRAY.rst
+l29 LTL_1_SPECF_8
+l30 LTL_1_SPECF_6
+l31 LTL_1_SPECF_4
+l32 LTL_1_SPECF_3
+l33 LTL_1_SPECF_1
+l34 IGNORE_LTL_1
+l35 AIGER_VALID
+l36 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/gray_7.smv

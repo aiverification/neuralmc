@@ -43,3 +43,4 @@ module Thermocouple(input clk, input rst, input spi_not_busy, input [31:0] spi_r
 		else
 			state = 1;
 endmodule
+

@@ -1,0 +1,1225 @@
+Parsing ../../../Benchmarks/delay_15.sv
+Converting
+Type-checking Verilog::DELAY
+
+Symbols:
+  Verilog::DELAY
+    type:  module
+      * ports: 
+        0: symbol
+            * type: bool
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            * identifier: Verilog::DELAY.clk
+            * input: 1
+            * output: 0
+            * #name: clk
+        1: symbol
+            * type: bool
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            * identifier: Verilog::DELAY.rst
+            * input: 1
+            * output: 0
+            * #name: rst
+        2: symbol
+            * type: bool
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            * identifier: Verilog::DELAY.sig
+            * input: 0
+            * output: 1
+            * #name: sig
+        3: symbol
+            * type: bool
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            * identifier: Verilog::DELAY.err
+            * input: 0
+            * output: 1
+            * #name: err
+        4: symbol
+            * type: bool
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            * identifier: Verilog::DELAY.flg
+            * input: 0
+            * output: 1
+            * #name: flg
+      * module_source: verilog_module
+          * #source_location: 
+            * file: ../../../Benchmarks/delay_15.sv
+            * line: 1
+            * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+          * base_name: DELAY
+          * ports: 
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            0: decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: input
+                0: symbol
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: clk
+                    * base_name: clk
+            1: decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: input
+                0: symbol
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: rst
+                    * base_name: rst
+            2: decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: output_register
+                0: symbol
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: sig
+                    * base_name: sig
+            3: decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: output_register
+                0: symbol
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: err
+                    * base_name: err
+            4: decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: output_register
+                0: symbol
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: flg
+                    * base_name: flg
+          * module_items: 
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+            0: local_parameter_decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 2
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: parameter
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 2
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * value: constant
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 2
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * value: 200000
+                    * identifier: N
+                    * base_name: N
+            1: local_parameter_decl
+                * type: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 3
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: parameter
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 3
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * value: constant
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 3
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * value: 18
+                    * identifier: CBITS
+                    * base_name: CBITS
+            2: decl
+                * type: verilog_packed_array
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 4
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * range: 
+                      0: -
+                          * #source_location: 
+                            * file: ../../../Benchmarks/delay_15.sv
+                            * line: 4
+                            * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                          0: symbol
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * identifier: CBITS
+                              * base_name: CBITS
+                          1: constant
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * value: 1
+                      1: constant
+                          * #source_location: 
+                            * file: ../../../Benchmarks/delay_15.sv
+                            * line: 4
+                            * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                          * value: 0
+                    0: nil
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 4
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * class: reg
+                0: declarator
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 4
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * identifier: cnt
+                    * base_name: cnt
+            3: continuous_assign
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 5
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: =
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 5
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: symbol
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 5
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: sig
+                        * base_name: sig
+                    1: >=
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 5
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 5
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: cnt
+                            * base_name: cnt
+                        1: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 5
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: N
+                            * base_name: N
+            4: continuous_assign
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 6
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: =
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 6
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: symbol
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 6
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: err
+                        * base_name: err
+                    1: >
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 6
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 6
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: cnt
+                            * base_name: cnt
+                        1: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 6
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: N
+                            * base_name: N
+            5: continuous_assign
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 7
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: =
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 7
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: symbol
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 7
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: flg
+                        * base_name: flg
+                    1: <
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 7
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 7
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: cnt
+                            * base_name: cnt
+                        1: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 7
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: N
+                            * base_name: N
+            6: verilog_always
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 8
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: event_guard
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 8
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: event
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 8
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: posedge
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 8
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 8
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: clk
+                                * base_name: clk
+                    1: block
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 11
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: if
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 10
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: or
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 9
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                0: symbol
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    * identifier: rst
+                                    * base_name: rst
+                                1: >=
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    0: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: cnt
+                                        * base_name: cnt
+                                    1: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: N
+                                        * base_name: N
+                            1: verilog_non_blocking_assign
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 9
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                0: symbol
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    * identifier: cnt
+                                    * base_name: cnt
+                                1: constant
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    * value: 0
+                            2: verilog_non_blocking_assign
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 10
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                0: symbol
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 10
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    * identifier: cnt
+                                    * base_name: cnt
+                                1: +
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 10
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    0: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 10
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: cnt
+                                        * base_name: cnt
+                                    1: constant
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 10
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * value: 1
+          * parameter_port_list: 
+            * #source_location: 
+              * file: ../../../Benchmarks/delay_15.sv
+              * line: 1
+              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+    value: trans
+      * type: module
+          * ports: 
+            0: symbol
+                * type: bool
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * identifier: Verilog::DELAY.clk
+                * input: 1
+                * output: 0
+                * #name: clk
+            1: symbol
+                * type: bool
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * identifier: Verilog::DELAY.rst
+                * input: 1
+                * output: 0
+                * #name: rst
+            2: symbol
+                * type: bool
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * identifier: Verilog::DELAY.sig
+                * input: 0
+                * output: 1
+                * #name: sig
+            3: symbol
+                * type: bool
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * identifier: Verilog::DELAY.err
+                * input: 0
+                * output: 1
+                * #name: err
+            4: symbol
+                * type: bool
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                * identifier: Verilog::DELAY.flg
+                * input: 0
+                * output: 1
+                * #name: flg
+          * module_source: verilog_module
+              * #source_location: 
+                * file: ../../../Benchmarks/delay_15.sv
+                * line: 1
+                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+              * base_name: DELAY
+              * ports: 
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: input
+                    0: symbol
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 1
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: clk
+                        * base_name: clk
+                1: decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: input
+                    0: symbol
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 1
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: rst
+                        * base_name: rst
+                2: decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: output_register
+                    0: symbol
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 1
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: sig
+                        * base_name: sig
+                3: decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: output_register
+                    0: symbol
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 1
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: err
+                        * base_name: err
+                4: decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 1
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: output_register
+                    0: symbol
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 1
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: flg
+                        * base_name: flg
+              * module_items: 
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                0: local_parameter_decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 2
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: parameter
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 2
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * value: constant
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 2
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * value: 200000
+                        * identifier: N
+                        * base_name: N
+                1: local_parameter_decl
+                    * type: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 3
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: parameter
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 3
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * value: constant
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 3
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * value: 18
+                        * identifier: CBITS
+                        * base_name: CBITS
+                2: decl
+                    * type: verilog_packed_array
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 4
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * range: 
+                          0: -
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              0: symbol
+                                  * #source_location: 
+                                    * file: ../../../Benchmarks/delay_15.sv
+                                    * line: 4
+                                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                  * identifier: CBITS
+                                  * base_name: CBITS
+                              1: constant
+                                  * #source_location: 
+                                    * file: ../../../Benchmarks/delay_15.sv
+                                    * line: 4
+                                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                  * value: 1
+                          1: constant
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * value: 0
+                        0: nil
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 4
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    * class: reg
+                    0: declarator
+                        * type: nil
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 4
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        * identifier: cnt
+                        * base_name: cnt
+                3: continuous_assign
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 5
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: =
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 5
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 5
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: sig
+                            * base_name: sig
+                        1: >=
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 5
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 5
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: cnt
+                                * base_name: cnt
+                            1: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 5
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: N
+                                * base_name: N
+                4: continuous_assign
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 6
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: =
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 6
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 6
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: err
+                            * base_name: err
+                        1: >
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 6
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 6
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: cnt
+                                * base_name: cnt
+                            1: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 6
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: N
+                                * base_name: N
+                5: continuous_assign
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 7
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: =
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 7
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: symbol
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 7
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            * identifier: flg
+                            * base_name: flg
+                        1: <
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 7
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 7
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: cnt
+                                * base_name: cnt
+                            1: symbol
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 7
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                * identifier: N
+                                * base_name: N
+                6: verilog_always
+                    * #source_location: 
+                      * file: ../../../Benchmarks/delay_15.sv
+                      * line: 8
+                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                    0: event_guard
+                        * #source_location: 
+                          * file: ../../../Benchmarks/delay_15.sv
+                          * line: 8
+                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                        0: event
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 8
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: posedge
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 8
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                0: symbol
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 8
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    * identifier: clk
+                                    * base_name: clk
+                        1: block
+                            * #source_location: 
+                              * file: ../../../Benchmarks/delay_15.sv
+                              * line: 11
+                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                            0: if
+                                * #source_location: 
+                                  * file: ../../../Benchmarks/delay_15.sv
+                                  * line: 10
+                                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                0: or
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    0: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: rst
+                                        * base_name: rst
+                                    1: >=
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        0: symbol
+                                            * #source_location: 
+                                              * file: ../../../Benchmarks/delay_15.sv
+                                              * line: 9
+                                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                            * identifier: cnt
+                                            * base_name: cnt
+                                        1: symbol
+                                            * #source_location: 
+                                              * file: ../../../Benchmarks/delay_15.sv
+                                              * line: 9
+                                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                            * identifier: N
+                                            * base_name: N
+                                1: verilog_non_blocking_assign
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 9
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    0: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: cnt
+                                        * base_name: cnt
+                                    1: constant
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 9
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * value: 0
+                                2: verilog_non_blocking_assign
+                                    * #source_location: 
+                                      * file: ../../../Benchmarks/delay_15.sv
+                                      * line: 10
+                                      * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                    0: symbol
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 10
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        * identifier: cnt
+                                        * base_name: cnt
+                                    1: +
+                                        * #source_location: 
+                                          * file: ../../../Benchmarks/delay_15.sv
+                                          * line: 10
+                                          * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                        0: symbol
+                                            * #source_location: 
+                                              * file: ../../../Benchmarks/delay_15.sv
+                                              * line: 10
+                                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                            * identifier: cnt
+                                            * base_name: cnt
+                                        1: constant
+                                            * #source_location: 
+                                              * file: ../../../Benchmarks/delay_15.sv
+                                              * line: 10
+                                              * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                            * value: 1
+              * parameter_port_list: 
+                * #source_location: 
+                  * file: ../../../Benchmarks/delay_15.sv
+                  * line: 1
+                  * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+      0: and
+          * type: bool
+          0: =
+              * type: bool
+              0: symbol
+                  * type: unsignedbv
+                      * #source_location: 
+                        * file: ../../../Benchmarks/delay_15.sv
+                        * line: 4
+                        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                      * width: 18
+                      * #offset: 0
+                      * #increasing: 0
+                  * identifier: Verilog::DELAY.cnt_aux0
+              1: +
+                  * type: unsignedbv
+                      * #source_location: 
+                        * file: ../../../Benchmarks/delay_15.sv
+                        * line: 4
+                        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                      * width: 18
+                      * #offset: 0
+                      * #increasing: 0
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 10
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  0: typecast
+                      * type: unsignedbv
+                          * #source_location: 
+                            * file: ../../../Benchmarks/delay_15.sv
+                            * line: 4
+                            * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                          * width: 18
+                          * #offset: 0
+                          * #increasing: 0
+                      0: typecast
+                          * type: unsignedbv
+                              * width: 32
+                          0: symbol
+                              * type: unsignedbv
+                                  * #source_location: 
+                                    * file: ../../../Benchmarks/delay_15.sv
+                                    * line: 4
+                                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                  * width: 18
+                                  * #offset: 0
+                                  * #increasing: 0
+                              * identifier: Verilog::DELAY.cnt
+                  1: constant
+                      * type: unsignedbv
+                          * #source_location: 
+                            * file: ../../../Benchmarks/delay_15.sv
+                            * line: 4
+                            * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                          * width: 18
+                          * #offset: 0
+                          * #increasing: 0
+                      * value: 1
+          1: =
+              * type: bool
+              0: symbol
+                  * type: bool
+                  * identifier: Verilog::DELAY.sig
+              1: >=
+                  * type: bool
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 5
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  0: typecast
+                      * type: unsignedbv
+                          * width: 32
+                      0: symbol
+                          * type: unsignedbv
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * width: 18
+                              * #offset: 0
+                              * #increasing: 0
+                          * identifier: Verilog::DELAY.cnt
+                  1: constant
+                      * type: unsignedbv
+                          * width: 32
+                      * value: 30D40
+          2: =
+              * type: bool
+              0: symbol
+                  * type: bool
+                  * identifier: Verilog::DELAY.err
+              1: >
+                  * type: bool
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 6
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  0: typecast
+                      * type: unsignedbv
+                          * width: 32
+                      0: symbol
+                          * type: unsignedbv
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * width: 18
+                              * #offset: 0
+                              * #increasing: 0
+                          * identifier: Verilog::DELAY.cnt
+                  1: constant
+                      * type: unsignedbv
+                          * width: 32
+                      * value: 30D40
+          3: =
+              * type: bool
+              0: symbol
+                  * type: bool
+                  * identifier: Verilog::DELAY.flg
+              1: <
+                  * type: bool
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 7
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  0: typecast
+                      * type: unsignedbv
+                          * width: 32
+                      0: symbol
+                          * type: unsignedbv
+                              * #source_location: 
+                                * file: ../../../Benchmarks/delay_15.sv
+                                * line: 4
+                                * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                              * width: 18
+                              * #offset: 0
+                              * #increasing: 0
+                          * identifier: Verilog::DELAY.cnt
+                  1: constant
+                      * type: unsignedbv
+                          * width: 32
+                      * value: 30D40
+      1: constant
+          * type: bool
+          * value: true
+      2: =
+          * type: bool
+          0: next_symbol
+              * type: unsignedbv
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 4
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  * width: 18
+                  * #offset: 0
+                  * #increasing: 0
+              * identifier: Verilog::DELAY.cnt
+          1: if
+              * type: unsignedbv
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 4
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  * width: 18
+                  * #offset: 0
+                  * #increasing: 0
+              0: or
+                  * type: bool
+                  * #source_location: 
+                    * file: ../../../Benchmarks/delay_15.sv
+                    * line: 9
+                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                  0: symbol
+                      * type: bool
+                      * identifier: Verilog::DELAY.rst
+                  1: >=
+                      * type: bool
+                      * #source_location: 
+                        * file: ../../../Benchmarks/delay_15.sv
+                        * line: 9
+                        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                      0: typecast
+                          * type: unsignedbv
+                              * width: 32
+                          0: symbol
+                              * type: unsignedbv
+                                  * #source_location: 
+                                    * file: ../../../Benchmarks/delay_15.sv
+                                    * line: 4
+                                    * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                                  * width: 18
+                                  * #offset: 0
+                                  * #increasing: 0
+                              * identifier: Verilog::DELAY.cnt
+                      1: constant
+                          * type: unsignedbv
+                              * width: 32
+                          * value: 30D40
+              1: constant
+                  * type: unsignedbv
+                      * #source_location: 
+                        * file: ../../../Benchmarks/delay_15.sv
+                        * line: 4
+                        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                      * width: 18
+                      * #offset: 0
+                      * #increasing: 0
+                  * value: 0
+              2: symbol
+                  * type: unsignedbv
+                      * #source_location: 
+                        * file: ../../../Benchmarks/delay_15.sv
+                        * line: 4
+                        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+                      * width: 18
+                      * #offset: 0
+                      * #increasing: 0
+                  * identifier: Verilog::DELAY.cnt_aux0
+  flags: mode=Verilog base_name=DELAY module=Verilog::DELAY pretty_name=DELAY
+  location: file ../../../Benchmarks/delay_15.sv line 1
+
+  Verilog::DELAY.CBITS
+    type:  signedbv
+      * width: 32
+    value: constant
+      * type: signedbv
+          * width: 32
+      * #source_location: 
+        * file: ../../../Benchmarks/delay_15.sv
+        * line: 3
+        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+      * value: 12
+      * #verilog_value: 18
+  flags: macro mode=Verilog base_name=CBITS module=Verilog::DELAY pretty_name=DELAY.CBITS
+  location: file ../../../Benchmarks/delay_15.sv line 3
+
+  Verilog::DELAY.N
+    type:  signedbv
+      * width: 32
+    value: constant
+      * type: signedbv
+          * width: 32
+      * #source_location: 
+        * file: ../../../Benchmarks/delay_15.sv
+        * line: 2
+        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+      * value: 30D40
+      * #verilog_value: 200000
+  flags: macro mode=Verilog base_name=N module=Verilog::DELAY pretty_name=DELAY.N
+  location: file ../../../Benchmarks/delay_15.sv line 2
+
+  Verilog::DELAY.clk
+    type:  bool
+    value: nil
+  flags: input mode=Verilog base_name=clk module=Verilog::DELAY pretty_name=DELAY.clk
+  location: 
+
+  Verilog::DELAY.cnt
+    type:  unsignedbv
+      * #source_location: 
+        * file: ../../../Benchmarks/delay_15.sv
+        * line: 4
+        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+      * width: 18
+      * #offset: 0
+      * #increasing: 0
+    value: nil
+  flags: state_var mode=Verilog base_name=cnt module=Verilog::DELAY pretty_name=DELAY.cnt
+  location: file ../../../Benchmarks/delay_15.sv line 4
+
+  Verilog::DELAY.cnt_aux0
+    type:  unsignedbv
+      * #source_location: 
+        * file: ../../../Benchmarks/delay_15.sv
+        * line: 4
+        * working_directory: /Data/neuralmc/NeurIPS25/Experiments/Safety
+      * width: 18
+      * #offset: 0
+      * #increasing: 0
+    value: nil
+  flags: auxiliary mode=Verilog base_name=cnt_aux0 module=Verilog::DELAY
+  location: file ../../../Benchmarks/delay_15.sv line 4
+
+  Verilog::DELAY.err
+    type:  bool
+    value: nil
+  flags: output mode=Verilog base_name=err module=Verilog::DELAY pretty_name=DELAY.err
+  location: 
+
+  Verilog::DELAY.flg
+    type:  bool
+    value: nil
+  flags: output mode=Verilog base_name=flg module=Verilog::DELAY pretty_name=DELAY.flg
+  location: 
+
+  Verilog::DELAY.rst
+    type:  bool
+    value: nil
+  flags: input mode=Verilog base_name=rst module=Verilog::DELAY pretty_name=DELAY.rst
+  location: 
+
+  Verilog::DELAY.sig
+    type:  bool
+    value: nil
+  flags: output mode=Verilog base_name=sig module=Verilog::DELAY pretty_name=DELAY.sig
+  location: 
+

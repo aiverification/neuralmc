@@ -1,0 +1,139 @@
+aig 257 38 35 0 184 0 0 1
+148 78
+156 80
+166 82
+176 84
+186 86
+196 88
+206 90
+216 92
+226 94
+236 96
+246 98
+256 100
+266 102
+276 104
+286 106
+296 108
+306 110
+316 112
+326 114
+336 116
+346 118
+356 120
+366 122
+376 124
+386 126
+393 128
+447 130
+454 132
+40
+70
+72
+74
+76
+504
+1
+2
+512
+514
+8FGNMK
+LUS(
+T][2
+\ec<
+dmkF
+lusP
+t}{Z
+|…ƒd
+„‹n
+Œ•“x
+”›‚
+œ¥£Œ
+¤­«–
+¬µ³ 
+´½»ª
+¼ÅÃ´
+ÄÍË¾
+ÌÕÓÈ
+ÔİÛÒ
+ÜåãÜ
+äíëæ
+ìõóğ
+ôıûúşÿ„»¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹¹³2µ·¾€H€ÿ»ÄAşŒÌÌ!·$µ!½$»àâã&ğññïòi0 convert.input30
+i1 convert.input29
+i2 convert.input28
+i3 convert.input27
+i4 convert.input26
+i5 convert.input25
+i6 convert.input24
+i7 convert.input23
+i8 convert.input22
+i9 convert.input21
+i10 convert.input20
+i11 convert.input19
+i12 convert.input1
+i13 convert.input31
+i14 convert.input13
+i15 convert.input0
+i16 Verilog.BLINK.clk
+i17 convert.input3
+i18 convert.input2
+i19 AIGER_NEXT_Verilog.BLINK.rst
+i20 convert.input5
+i21 convert.input7
+i22 convert.input9
+i23 convert.input15
+i24 convert.input4
+i25 convert.input6
+i26 convert.input8
+i27 convert.input10
+i28 convert.input11
+i29 convert.input12
+i30 convert.input14
+i31 convert.input16
+i32 convert.input17
+i33 convert.input18
+i34 AIGER_NEXT_LTL_1_SPECF_3
+i35 AIGER_NEXT_LTL_1_SPECF_2
+i36 AIGER_NEXT_LTL_1_SPECF_1
+i37 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.BLINK.cnt[0]
+l1 Verilog.BLINK.cnt[1]
+l2 Verilog.BLINK.cnt[2]
+l3 Verilog.BLINK.cnt[3]
+l4 Verilog.BLINK.cnt[4]
+l5 Verilog.BLINK.cnt[5]
+l6 Verilog.BLINK.cnt[6]
+l7 Verilog.BLINK.cnt[7]
+l8 Verilog.BLINK.cnt[8]
+l9 Verilog.BLINK.cnt[9]
+l10 Verilog.BLINK.cnt[10]
+l11 Verilog.BLINK.cnt[11]
+l12 Verilog.BLINK.cnt[12]
+l13 Verilog.BLINK.cnt[13]
+l14 Verilog.BLINK.cnt[14]
+l15 Verilog.BLINK.cnt[15]
+l16 Verilog.BLINK.cnt[16]
+l17 Verilog.BLINK.cnt[17]
+l18 Verilog.BLINK.cnt[18]
+l19 Verilog.BLINK.cnt[19]
+l20 Verilog.BLINK.cnt[20]
+l21 Verilog.BLINK.cnt[21]
+l22 Verilog.BLINK.cnt[22]
+l23 Verilog.BLINK.cnt[23]
+l24 Verilog.BLINK.cnt[24]
+l25 Verilog.BLINK.led
+l26 Verilog.BLINK.flg
+l27 Verilog.BLINK.mode
+l28 Verilog.BLINK.rst
+l29 LTL_1_SPECF_3
+l30 LTL_1_SPECF_2
+l31 LTL_1_SPECF_1
+l32 IGNORE_LTL_1
+l33 AIGER_VALID
+l34 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/blink_18.smv

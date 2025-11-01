@@ -1,0 +1,106 @@
+aig 199 40 25 0 134 0 0 1
+143 82
+155 84
+167 86
+179 88
+191 90
+203 92
+215 94
+221 96
+222 98
+140 100
+232 102
+242 104
+252 106
+262 108
+272 110
+282 112
+38
+70
+72
+74
+76
+78
+80
+364
+1
+3
+372
+396
+398
+ !$+.$*5806?B<BILHNSVTZ]``fgk|{yt
+zÉÅ~
+Çãâà
+äìëí
+íõôú
+ö£°¶œ&—–œü®-¢¢§§URKC;3+#ô˚˛—œ
+““““4‰>ÊÁFÛııÛëèèèèèèèèìãéi0 convert.input31
+i1 convert.input30
+i2 convert.input29
+i3 convert.input28
+i4 convert.input27
+i5 convert.input26
+i6 convert.input25
+i7 convert.input24
+i8 convert.input23
+i9 convert.input22
+i10 convert.input21
+i11 convert.input20
+i12 convert.input3
+i13 convert.input15
+i14 convert.input0
+i15 convert.input2
+i16 Verilog.GRAY.clk
+i17 convert.input5
+i18 AIGER_NEXT_Verilog.GRAY.rst
+i19 convert.input7
+i20 convert.input9
+i21 convert.input13
+i22 convert.input1
+i23 convert.input17
+i24 convert.input4
+i25 convert.input6
+i26 convert.input8
+i27 convert.input10
+i28 convert.input11
+i29 convert.input12
+i30 convert.input14
+i31 convert.input16
+i32 convert.input18
+i33 convert.input19
+i34 AIGER_NEXT_LTL_1_SPECF_8
+i35 AIGER_NEXT_LTL_1_SPECF_6
+i36 AIGER_NEXT_LTL_1_SPECF_4
+i37 AIGER_NEXT_LTL_1_SPECF_3
+i38 AIGER_NEXT_LTL_1_SPECF_1
+i39 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.GRAY.gray_c[0]
+l1 Verilog.GRAY.gray_c[1]
+l2 Verilog.GRAY.gray_c[2]
+l3 Verilog.GRAY.gray_c[3]
+l4 Verilog.GRAY.gray_c[4]
+l5 Verilog.GRAY.gray_c[5]
+l6 Verilog.GRAY.gray_c[6]
+l7 Verilog.GRAY.gray_c[7]
+l8 Verilog.GRAY.cnt[0]
+l9 Verilog.GRAY.cnt[1]
+l10 Verilog.GRAY.cnt[2]
+l11 Verilog.GRAY.cnt[3]
+l12 Verilog.GRAY.cnt[4]
+l13 Verilog.GRAY.cnt[5]
+l14 Verilog.GRAY.cnt[6]
+l15 Verilog.GRAY.cnt[7]
+l16 Verilog.GRAY.rst
+l17 LTL_1_SPECF_8
+l18 LTL_1_SPECF_6
+l19 LTL_1_SPECF_4
+l20 LTL_1_SPECF_3
+l21 LTL_1_SPECF_1
+l22 IGNORE_LTL_1
+l23 AIGER_VALID
+l24 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/gray_1.smv

@@ -23,16 +23,16 @@ module UART_T #(localparam d_width = 13, c_width = 5) (input clk, input rst, inp
 		end
 		else if(tx_state == 1) begin
 			if(tx_cnt < d_width+3) begin
-				tx_state = 1;
+				tx_busy = 1;
 				tx_cnt = tx_cnt + 1;
 				tx_buffer = {1'b1, tx_buffer[d_width+1:1]};
 			end
 			else begin
 				tx_cnt = 0;
 				tx_state = 0;
+				tx_busy = 0;
 			end
 		end
 		tx = tx_buffer[0];
 	end
 endmodule
-

@@ -1,4 +1,4 @@
-module SEVEN(input clk, input rst, input [13:0] both7seg, output reg[6:0] segment);
+module SEVEN(input clk, input rst, input [13:0] both7seg, output reg[6:0] segment, output reg sig);
 	localparam freq = 1000;
 	localparam CBITS = 10;
 
@@ -11,9 +11,12 @@ module SEVEN(input clk, input rst, input [13:0] both7seg, output reg[6:0] segmen
 			digit_select = 0;
 			segment = 0;
 		end
-		if(cnt < freq)
+		if(cnt < freq) begin
 			cnt = cnt + 1;
+			sig = 0;
+		end
 		else begin
+			sig = 1;
 			cnt = 0;
 			if(digit_select == 0) begin
 				digit_select = 1;

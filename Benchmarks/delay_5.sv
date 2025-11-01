@@ -2,15 +2,11 @@ module DELAY (input clk, input rst, output reg sig ,output reg err, output reg f
   localparam N = 7500;
   localparam CBITS = 13;
   reg [CBITS-1 :0] cnt;
+  assign sig = (cnt >= N);
+  assign err = (cnt > N);
+  assign flg = (cnt < N);
   always @(posedge clk) begin
-    if (rst) cnt = 0;
-    else cnt = cnt + 1;
-    if (cnt > N) begin sig = 1;
-      cnt = 0; end
-    else sig = 0;
-    if (cnt > N + 1) err = 1;
-    else err = 0;
-    if (cnt <= N) flg = 1;
-    else flg = 0;
+    if (rst || cnt >= N) cnt <= 0;
+    else cnt <= cnt + 1; 
   end
 endmodule

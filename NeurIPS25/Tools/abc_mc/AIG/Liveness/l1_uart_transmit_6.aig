@@ -1,0 +1,148 @@
+aig 341 81 27 0 233 0 0 1
+247 164
+267 166
+291 168
+315 170
+339 172
+363 174
+387 176
+411 178
+435 180
+459 182
+483 184
+507 186
+527 188
+533 190
+551 192
+573 194
+599 196
+623 198
+633 200
+247 202
+88
+96
+158
+160
+162
+674
+1
+2
+680
+682
+(	AB7+'?@')5-@ŒA%6-=0>?A3EXŠY#NE;H<WY1]pˆq!f]9`:oq/uˆ†‰~u7x8‡‰- „¡–56Ÿ¡+¥¸‚¹®¥3¨4·¹)½Ð€ÑÆ½1À2ÏÑ'Õè~éÞÕ/Ø0çé%í€|öí-ð.ÿ#…˜z™Ž…+ˆ,—™!°x±¦ž)«­±
+µ«ÇÉ½°Â
+×É
+ÆÍÊ!ÓÊØÔ#ßïñå.ÔäòÿùøýýûüŠˆ!‘¡±`›f™aÛÜÛ§°1q´çè¸¸
+¸¸ÄÆÇÊ	ÓÑÔi0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input49
+i15 convert.input48
+i16 convert.input47
+i17 convert.input46
+i18 convert.input45
+i19 convert.input44
+i20 convert.input12
+i21 convert.input10
+i22 convert.input8
+i23 convert.input6
+i24 convert.input4
+i25 convert.input3
+i26 convert.input2
+i27 convert.input1
+i28 convert.input13
+i29 convert.input43
+i30 convert.input0
+i31 Verilog.UART_T.tx_data[0]
+i32 Verilog.UART_T.tx_data[1]
+i33 Verilog.UART_T.tx_data[2]
+i34 Verilog.UART_T.tx_data[3]
+i35 Verilog.UART_T.tx_data[4]
+i36 Verilog.UART_T.tx_data[5]
+i37 Verilog.UART_T.tx_data[6]
+i38 Verilog.UART_T.tx_data[7]
+i39 Verilog.UART_T.tx_data[8]
+i40 Verilog.UART_T.tx_data[9]
+i41 Verilog.UART_T.tx_data[10]
+i42 convert.input30
+i43 AIGER_NEXT_Verilog.UART_T.tx_ena
+i44 convert.input28
+i45 convert.input11
+i46 convert.input41
+i47 AIGER_NEXT_Verilog.UART_T.rst
+i48 convert.input26
+i49 convert.input9
+i50 convert.input39
+i51 Verilog.UART_T.clk
+i52 convert.input24
+i53 convert.input7
+i54 convert.input37
+i55 convert.input20
+i56 convert.input22
+i57 convert.input5
+i58 convert.input35
+i59 convert.input14
+i60 convert.input15
+i61 convert.input16
+i62 convert.input17
+i63 convert.input18
+i64 convert.input19
+i65 convert.input21
+i66 convert.input23
+i67 convert.input25
+i68 convert.input27
+i69 convert.input29
+i70 convert.input31
+i71 convert.input32
+i72 convert.input33
+i73 convert.input34
+i74 convert.input36
+i75 convert.input38
+i76 convert.input40
+i77 convert.input42
+i78 AIGER_NEXT_LTL_1_SPECF_3
+i79 AIGER_NEXT_LTL_1_SPECF_1
+i80 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.UART_T.tx_buffer[0]
+l1 Verilog.UART_T.tx_buffer[1]
+l2 Verilog.UART_T.tx_buffer[2]
+l3 Verilog.UART_T.tx_buffer[3]
+l4 Verilog.UART_T.tx_buffer[4]
+l5 Verilog.UART_T.tx_buffer[5]
+l6 Verilog.UART_T.tx_buffer[6]
+l7 Verilog.UART_T.tx_buffer[7]
+l8 Verilog.UART_T.tx_buffer[8]
+l9 Verilog.UART_T.tx_buffer[9]
+l10 Verilog.UART_T.tx_buffer[10]
+l11 Verilog.UART_T.tx_buffer[11]
+l12 Verilog.UART_T.tx_buffer[12]
+l13 Verilog.UART_T.tx_state
+l14 Verilog.UART_T.tx_cnt[0]
+l15 Verilog.UART_T.tx_cnt[1]
+l16 Verilog.UART_T.tx_cnt[2]
+l17 Verilog.UART_T.tx_cnt[3]
+l18 Verilog.UART_T.tx_busy
+l19 Verilog.UART_T.tx
+l20 Verilog.UART_T.tx_ena
+l21 Verilog.UART_T.rst
+l22 LTL_1_SPECF_3
+l23 LTL_1_SPECF_1
+l24 IGNORE_LTL_1
+l25 AIGER_VALID
+l26 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/uart_transmit_6.smv

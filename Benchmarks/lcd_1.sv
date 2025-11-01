@@ -90,10 +90,12 @@ module LCD(input clk, input [6:0] in_data, input lcd_enable, input [9:0] lcd_bus
 				else if(cnt < 27*clk_freq)		// negative enable half-cycle
 					e = 0;
 				cnt = cnt + 1;
+				busy = 1;
 			end
 			else begin
 				cnt = 0;
 				state = 2;
+				busy = 1;
 			end
 		end
 	end

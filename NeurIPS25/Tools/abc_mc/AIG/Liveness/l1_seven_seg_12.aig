@@ -1,0 +1,164 @@
+aig 288 83 30 0 175 0 0 1
+272 168
+282 170
+294 172
+306 174
+318 176
+328 178
+338 180
+348 182
+358 184
+368 186
+378 188
+388 190
+398 192
+408 194
+418 196
+435 198
+449 200
+463 202
+477 204
+491 206
+505 208
+519 210
+268 212
+525 214
+60
+162
+164
+166
+566
+1
+2
+574
+576
+'%8#!!+/'519/icC-dO+$[)0
+US:
+T][D
+\_]N
+^ecX
+d}b
+~ãâl
+äóïv
+ñÉÅÄ
+Çâáä
+à∑µîÀóœ€Ë£
+€ßŸÊ±Èµ◊ ‰ø˜√+’.‚ÕÖ—9”<‡€ì	ﬂG—JﬁÈ°ÌUœX‹˜`õaù—<ÎÏÎ±∫7œ˜¯¬¬
+¬¬Œ–—ﬂ›ﬂ›‡i0 convert.input63
+i1 convert.input62
+i2 convert.input61
+i3 convert.input60
+i4 convert.input59
+i5 convert.input58
+i6 convert.input57
+i7 convert.input56
+i8 convert.input55
+i9 convert.input54
+i10 convert.input53
+i11 convert.input52
+i12 convert.input51
+i13 convert.input50
+i14 convert.input49
+i15 convert.input48
+i16 convert.input47
+i17 convert.input16
+i18 convert.input15
+i19 convert.input13
+i20 convert.input11
+i21 convert.input10
+i22 convert.input8
+i23 convert.input6
+i24 convert.input4
+i25 convert.input2
+i26 convert.input1
+i27 convert.input7
+i28 convert.input37
+i29 AIGER_NEXT_Verilog.SEVEN.rst
+i30 convert.input27
+i31 Verilog.SEVEN.both7seg[0]
+i32 Verilog.SEVEN.both7seg[1]
+i33 Verilog.SEVEN.both7seg[2]
+i34 Verilog.SEVEN.both7seg[3]
+i35 Verilog.SEVEN.both7seg[4]
+i36 Verilog.SEVEN.both7seg[5]
+i37 Verilog.SEVEN.both7seg[6]
+i38 Verilog.SEVEN.both7seg[7]
+i39 Verilog.SEVEN.both7seg[8]
+i40 Verilog.SEVEN.both7seg[9]
+i41 Verilog.SEVEN.both7seg[10]
+i42 Verilog.SEVEN.both7seg[11]
+i43 Verilog.SEVEN.both7seg[12]
+i44 Verilog.SEVEN.both7seg[13]
+i45 convert.input29
+i46 convert.input12
+i47 convert.input42
+i48 convert.input3
+i49 convert.input33
+i50 convert.input0
+i51 convert.input5
+i52 convert.input35
+i53 convert.input9
+i54 convert.input39
+i55 convert.input14
+i56 convert.input44
+i57 Verilog.SEVEN.clk
+i58 convert.input25
+i59 convert.input17
+i60 convert.input18
+i61 convert.input19
+i62 convert.input20
+i63 convert.input21
+i64 convert.input22
+i65 convert.input23
+i66 convert.input24
+i67 convert.input26
+i68 convert.input28
+i69 convert.input30
+i70 convert.input31
+i71 convert.input32
+i72 convert.input34
+i73 convert.input36
+i74 convert.input38
+i75 convert.input40
+i76 convert.input41
+i77 convert.input43
+i78 convert.input45
+i79 convert.input46
+i80 AIGER_NEXT_LTL_1_SPECF_3
+i81 AIGER_NEXT_LTL_1_SPECF_1
+i82 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.SEVEN.cnt[0]
+l1 Verilog.SEVEN.cnt[1]
+l2 Verilog.SEVEN.cnt[2]
+l3 Verilog.SEVEN.cnt[3]
+l4 Verilog.SEVEN.cnt[4]
+l5 Verilog.SEVEN.cnt[5]
+l6 Verilog.SEVEN.cnt[6]
+l7 Verilog.SEVEN.cnt[7]
+l8 Verilog.SEVEN.cnt[8]
+l9 Verilog.SEVEN.cnt[9]
+l10 Verilog.SEVEN.cnt[10]
+l11 Verilog.SEVEN.cnt[11]
+l12 Verilog.SEVEN.cnt[12]
+l13 Verilog.SEVEN.cnt[13]
+l14 Verilog.SEVEN.cnt[14]
+l15 Verilog.SEVEN.segment[0]
+l16 Verilog.SEVEN.segment[1]
+l17 Verilog.SEVEN.segment[2]
+l18 Verilog.SEVEN.segment[3]
+l19 Verilog.SEVEN.segment[4]
+l20 Verilog.SEVEN.segment[5]
+l21 Verilog.SEVEN.segment[6]
+l22 Verilog.SEVEN.sig
+l23 Verilog.SEVEN.digit_select
+l24 Verilog.SEVEN.rst
+l25 LTL_1_SPECF_3
+l26 LTL_1_SPECF_1
+l27 IGNORE_LTL_1
+l28 AIGER_VALID
+l29 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/seven_seg_12.smv

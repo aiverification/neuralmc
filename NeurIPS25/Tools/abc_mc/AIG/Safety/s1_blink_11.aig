@@ -1,0 +1,118 @@
+aig 208 38 28 0 142 0 0 1
+134 78
+142 80
+152 82
+162 84
+172 86
+182 88
+192 90
+202 92
+212 94
+222 96
+232 98
+242 100
+252 102
+262 104
+272 106
+282 108
+292 110
+302 112
+309 114
+349 116
+356 118
+40
+70
+72
+74
+76
+406
+1
+2
+414
+416
+*89@?=
+>GE(
+FOM2
+NWU<
+V_]F
+^geP
+fomZ
+nwud
+v}n
+~‡…x
+†‚
+Ž—•Œ
+–Ÿ–
+ž§¥ 
+¦¯­ª
+®·µ´¸¹¾çååååååååååååååååß$áãêžHŸžçð3œ«ªøø!ã$á!é$çŒŽ&œ›ži0 convert.input30
+i1 convert.input29
+i2 convert.input28
+i3 convert.input27
+i4 convert.input26
+i5 convert.input25
+i6 convert.input24
+i7 convert.input23
+i8 convert.input22
+i9 convert.input21
+i10 convert.input20
+i11 convert.input19
+i12 convert.input1
+i13 convert.input31
+i14 convert.input13
+i15 convert.input0
+i16 Verilog.BLINK.clk
+i17 convert.input3
+i18 convert.input2
+i19 AIGER_NEXT_Verilog.BLINK.rst
+i20 convert.input5
+i21 convert.input7
+i22 convert.input9
+i23 convert.input15
+i24 convert.input4
+i25 convert.input6
+i26 convert.input8
+i27 convert.input10
+i28 convert.input11
+i29 convert.input12
+i30 convert.input14
+i31 convert.input16
+i32 convert.input17
+i33 convert.input18
+i34 AIGER_NEXT_LTL_1_SPECF_3
+i35 AIGER_NEXT_LTL_1_SPECF_2
+i36 AIGER_NEXT_LTL_1_SPECF_1
+i37 AIGER_NEXT_IGNORE_LTL_1
+l0 Verilog.BLINK.cnt[0]
+l1 Verilog.BLINK.cnt[1]
+l2 Verilog.BLINK.cnt[2]
+l3 Verilog.BLINK.cnt[3]
+l4 Verilog.BLINK.cnt[4]
+l5 Verilog.BLINK.cnt[5]
+l6 Verilog.BLINK.cnt[6]
+l7 Verilog.BLINK.cnt[7]
+l8 Verilog.BLINK.cnt[8]
+l9 Verilog.BLINK.cnt[9]
+l10 Verilog.BLINK.cnt[10]
+l11 Verilog.BLINK.cnt[11]
+l12 Verilog.BLINK.cnt[12]
+l13 Verilog.BLINK.cnt[13]
+l14 Verilog.BLINK.cnt[14]
+l15 Verilog.BLINK.cnt[15]
+l16 Verilog.BLINK.cnt[16]
+l17 Verilog.BLINK.cnt[17]
+l18 Verilog.BLINK.led
+l19 Verilog.BLINK.flg
+l20 Verilog.BLINK.mode
+l21 Verilog.BLINK.rst
+l22 LTL_1_SPECF_3
+l23 LTL_1_SPECF_2
+l24 LTL_1_SPECF_1
+l25 IGNORE_LTL_1
+l26 AIGER_VALID
+l27 AIGER_INITIALIZED
+j0 AIGER_JUST_0
+c
+smvtoaig
+1.9
+../../Tools/abc_mc/SMV/blink_11.smv

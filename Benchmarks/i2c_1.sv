@@ -1,6 +1,6 @@
-module i2cStrech(input clk, input rst, input scl_not_ena, output reg data_clk);
-	localparam divider = 125;
-	localparam CBITS = 9;
+module i2cStrech(input clk, input rst, input scl_not_ena, output reg data_clk, output reg switch_range);
+	localparam divider = 3;
+	localparam CBITS = 4;
 	reg [CBITS - 1:0] cnt;	//0 to 4*divider
 	reg scl_clk;
 	reg stretch;
@@ -34,5 +34,9 @@ module i2cStrech(input clk, input rst, input scl_not_ena, output reg data_clk);
 			scl_clk = 1;
 			data_clk = 0;
 		end
+		if(2*divider <= cnt && cnt <= 3*divider - 1)
+        	switch_range = 1;
+      	else
+        	switch_range = 0;
 	end
 endmodule
